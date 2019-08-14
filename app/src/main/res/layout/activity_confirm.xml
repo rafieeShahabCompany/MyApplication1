@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Confirm">
+    <TextView
+        android:id="@+id/txtshowname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtshowfamily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtshowage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtshowphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtshowaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Edit"
+        android:id="@+id/btnEdit"
+        android:layout_width="50dp"
+        android:layout_height="20dp" />
+    <Button
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Confirm"
+        android:id="@+id/btnConfirm"
+        android:layout_width="50dp"
+        android:layout_height="20dp" />
+</LinearLayout>
